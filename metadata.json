@@ -1,0 +1,8 @@
+
+{
+  "name": "Doctor Repair - Best AC & Appliance Repair in Delhi",
+  "description": "Looking for the best AC repair in Delhi? Doctor Repair provide affordable AC service, washing machine repair, fridge repair, installation & AMC services across Delhi NCR. Call now!",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
