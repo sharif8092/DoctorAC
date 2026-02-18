@@ -6,33 +6,33 @@ const slides = [
   {
     title: "Best AC Repair in Delhi",
     subtitle: "Authorized technicians for Split & Window AC. Fast gas filling & cooling fixes with 90-day warranty.",
-    bgImage: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2069&auto=format&fit=crop",
-    mainImage: "https://images.unsplash.com/photo-1621905252507-b35482cd34b4?q=80&w=2070&auto=format&fit=crop",
+    bgImage: "ac1.png",
+    mainImage: "ac2.png",
     tag: "90 Days Warranty",
     highlight: "AC Service Expert",
     cta: "Book AC Repair",
     color: "blue"
   },
-  {
-    title: "Washer Service Specialist",
-    subtitle: "Expert fixing for LG, Samsung & IFB. Same-day doorstep service in Delhi NCR with original parts.",
-    bgImage: "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop",
-    mainImage: "https://images.unsplash.com/photo-1626806819282-2c1dc01a5e0c?q=80&w=2070&auto=format&fit=crop",
-    tag: "Genuine Spare Parts",
-    highlight: "Washing Machine",
-    cta: "Fix My Washer",
-    color: "indigo"
-  },
-  {
-    title: "Fridge Expert Repair",
-    subtitle: "Double Door & Side-by-Side refrigerator expert. Fast gas refilling & compressor solutions.",
-    bgImage: "https://images.unsplash.com/photo-1584622781564-1d9876a13d00?q=80&w=2070&auto=format&fit=crop",
-    mainImage: "https://images.unsplash.com/photo-1571175439180-f132e82ce53e?q=80&w=2070&auto=format&fit=crop",
-    tag: "Verified Technicians",
-    highlight: "Refrigerator Fix",
-    cta: "Repair Fridge",
-    color: "cyan"
-  }
+  // {
+  //   title: "Washer Service Specialist",
+  //   subtitle: "Expert fixing for LG, Samsung & IFB. Same-day doorstep service in Delhi NCR with original parts.",
+  //   bgImage: "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop",
+  //   mainImage: "https://images.unsplash.com/photo-1626806819282-2c1dc01a5e0c?q=80&w=2070&auto=format&fit=crop",
+  //   tag: "Genuine Spare Parts",
+  //   highlight: "Washing Machine",
+  //   cta: "Fix My Washer",
+  //   color: "indigo"
+  // },
+  // {
+  //   title: "Fridge Expert Repair",
+  //   subtitle: "Double Door & Side-by-Side refrigerator expert. Fast gas refilling & compressor solutions.",
+  //   bgImage: "https://images.unsplash.com/photo-1584622781564-1d9876a13d00?q=80&w=2070&auto=format&fit=crop",
+  //   mainImage: "https://images.unsplash.com/photo-1571175439180-f132e82ce53e?q=80&w=2070&auto=format&fit=crop",
+  //   tag: "Verified Technicians",
+  //   highlight: "Refrigerator Fix",
+  //   cta: "Repair Fridge",
+  //   color: "cyan"
+  // }
 ];
 
 interface HeroProps {
@@ -43,16 +43,16 @@ const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isChanging, setIsChanging] = useState(false);
 
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setIsChanging(true);
-      setTimeout(() => {
-        setCurrentSlide((prev) => (prev + 1) % slides.length);
-        setIsChanging(false);
-      }, 600);
-    }, 6000);
-    return () => clearInterval(timer);
-  }, []);
+  // useEffect(() => {
+  //   const timer = setInterval(() => {
+  //     setIsChanging(true);
+  //     setTimeout(() => {
+  //       setCurrentSlide((prev) => (prev + 1) % slides.length);
+  //       setIsChanging(false);
+  //     }, 600);
+  //   }, 6000);
+  //   return () => clearInterval(timer);
+  // }, []);
 
   return (
     <section className="relative min-h-[90vh] md:min-h-screen flex items-center justify-center overflow-hidden bg-slate-950">

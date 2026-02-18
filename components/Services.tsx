@@ -51,7 +51,7 @@ const services = [
     title: "AC Repair & Service",
     h3: "Reliable AC Repair in Delhi",
     desc: "Expert diagnosis and fixing of all types of Split and Window ACs. We fix cooling issues, gas leakage, and noise problems.",
-    img: "https://images.unsplash.com/photo-1621905252507-b35482cd34b4?q=80&w=2070&auto=format&fit=crop",
+    img: "ac3.png",
     icon: serviceIcons.ac,
     badge: "Popular"
   },
@@ -60,7 +60,7 @@ const services = [
     title: "AC on Rent",
     h3: "Window & Split AC Renting",
     desc: "Affordable AC rental services for homes and offices in Delhi NCR. Low maintenance cost and quick installation.",
-    img: "https://images.unsplash.com/photo-1591438209445-56546369165b?q=80&w=2071&auto=format&fit=crop",
+    img: "ac2.png",
     icon: serviceIcons.rental,
     badge: "Seasonal Deal"
   },
@@ -69,7 +69,7 @@ const services = [
     title: "Old AC Buy & Sell",
     h3: "Best Price for Used ACs",
     desc: "Looking to sell your old AC? We buy scrap or working ACs at the best market rates in Delhi. Instant cash payout.",
-    img: "https://images.unsplash.com/photo-1621905251918-48416bd8575a?q=80&w=2069&auto=format&fit=crop",
+    img: "ac5.png",
     icon: serviceIcons.sell,
     badge: "Instant Cash"
   },
@@ -78,7 +78,7 @@ const services = [
     title: "Washing Machine Repair",
     h3: "Washing Machine Repair in Delhi NCR",
     desc: "Complete repair solutions for Top Load, Front Load, and Semi-Automatic washing machines by experienced technicians.",
-    img: "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop",
+    img: "washer.png",
     icon: serviceIcons.washer,
     badge: "24/7 Service"
   },
@@ -87,7 +87,7 @@ const services = [
     title: "Fridge Repair",
     h3: "Fridge Repair Service Near Me",
     desc: "Double door, single door, and side-by-side refrigerator repair. Expert gas refilling and compressor replacement.",
-    img: "https://images.unsplash.com/photo-1584622781564-1d9876a13d00?q=80&w=2070&auto=format&fit=crop",
+    img: "fridge.png",
     icon: serviceIcons.fridge,
     badge: "Best Value"
   },
@@ -96,7 +96,7 @@ const services = [
     title: "AC Installation",
     h3: "Professional AC Installation",
     desc: "Secure mounting and gas pressure testing. We provide copper piping and expert bracket fitting services.",
-    img: "https://images.unsplash.com/photo-1599700403969-f77b3aa74837?q=80&w=2070&auto=format&fit=crop",
+    img: "ac6.png",
     icon: serviceIcons.installation,
     badge: "Expert Team"
   },
@@ -105,7 +105,7 @@ const services = [
     title: "AC AMC Service",
     h3: "AC AMC Service in Delhi",
     desc: "Affordable Annual Maintenance Contracts (AMC). Unlimited service visits and preventive maintenance included.",
-    img: "https://images.unsplash.com/photo-1631541490213-98305c697818?q=80&w=2070&auto=format&fit=crop",
+    img: "amc.png",
     icon: serviceIcons.amc,
     badge: "Most Saved"
   },
@@ -114,7 +114,7 @@ const services = [
     title: "Appliance Rentals",
     h3: "Fridge & Washer on Rent",
     desc: "Don't want to buy? Rent high-quality washing machines and fridges at the lowest monthly prices in Rohini & Dwarka.",
-    img: "https://images.unsplash.com/photo-1540340061722-9293d5163008?q=80&w=2070&auto=format&fit=crop",
+    img: "acrental.png",
     icon: serviceIcons.rental,
     badge: "Affordable"
   }

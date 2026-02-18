@@ -3,10 +3,10 @@ import React, { useEffect, useState, useRef } from 'react';
 import { COMPANY_NAME, GST_NUMBER, UDYAM_NUMBER } from '../constants';
 
 const brandLogos = [
-  { name: "LG", url: "https://upload.wikimedia.org/wikipedia/commons/b/bf/LG_logo_%282015%29.svg" },
-  { name: "Daikin", url: "https://upload.wikimedia.org/wikipedia/commons/2/20/Daikin_logo.svg" },
-  { name: "Samsung", url: "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" },
-  { name: "Voltas", url: "https://upload.wikimedia.org/wikipedia/en/7/7b/Voltas_logo.svg" }
+  { name: "LG", url: "lg_logo.png" },
+  { name: "Daikin", url: "daikin_logo.png" },
+  { name: "Samsung", url: "samsung_logo.png" },
+  { name: "Voltas", url: "voltas_logo.png" }
 ];
 
 const About: React.FC = () => {
@@ -18,7 +18,7 @@ const About: React.FC = () => {
           <div className="w-full lg:w-1/2 relative order-2 lg:order-1">
             <div className="relative rounded-[2.5rem] md:rounded-[4rem] overflow-hidden shadow-2xl aspect-[4/3] md:aspect-[4/5]">
               <img 
-                src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=2070&auto=format&fit=crop" 
+                src="technicians_work.png" 
                 alt="Technicians at work" 
                 className="w-full h-full object-cover"
                 loading="lazy"
