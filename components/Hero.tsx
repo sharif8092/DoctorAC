@@ -10,7 +10,7 @@ const slides = [
     mainImage: "ac2.png",
     tag: "90 Days Warranty",
     highlight: "AC Service Expert",
-    cta: "Book AC Repair in Delhi NCR",
+    cta: "Book AC Repair",
     color: "blue"
   },
   // {
@@ -125,8 +125,8 @@ const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
               </div>
               <div className="w-px h-8 bg-white/20"></div>
               <div className="flex flex-col">
-                <span className="text-white font-black text-xl">50K+</span>
-                <span className="text-[10px] text-blue-200 font-bold uppercase tracking-widest">Fixed Yearly</span>
+                <span className="text-white font-black text-xl">50K+ AC Repairs</span>
+                <span className="text-[10px] text-blue-200 font-bold uppercase tracking-widest">Completed</span>
               </div>
             </div>
           </div>
