@@ -4,13 +4,13 @@ import { PHONE_NUMBER, WHATSAPP_NUMBER, ICONS, COMPANY_NAME } from '../constants
 
 const slides = [
   {
-    title: "Best AC Repair in Delhi",
-    subtitle: "Authorized technicians for Split & Window AC. Fast gas filling & cooling fixes with 90-day warranty.",
+    title: "Best AC Repair Service in Delhi NCR – Fast & Affordable",
+    subtitle: "Certified & authorized AC technicians in Delhi for Split and Window AC repair, gas refilling, cooling issues, installation & maintenance.",
     bgImage: "ac1.png",
     mainImage: "ac2.png",
     tag: "90 Days Warranty",
     highlight: "AC Service Expert",
-    cta: "Book AC Repair",
+    cta: "Book AC Repair in Delhi NCR",
     color: "blue"
   },
   // {

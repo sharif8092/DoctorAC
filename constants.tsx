@@ -3,16 +3,30 @@ import React from 'react';
 
 export const COMPANY_NAME = "Doctor Repair";
 export const BRAND_NAME = "Doctor Repair Delhi";
-export const PHONE_NUMBER = "+919759216491";
-export const WHATSAPP_NUMBER = "919759216491";
+export const PHONE_NUMBER = "+919310219055";
+export const WHATSAPP_NUMBER = "916398357965";
 export const EMAIL = "help@doctorrepair.in";
 export const GST_NUMBER = "07AAZFD1338B1ZH";
 export const UDYAM_NUMBER = "UDYAM-DL-09-0043493";
 export const ADDRESS = "Ground Floor Shop, Jai Ram House, Block-B, Hari Nagar Part-2, Badarpur, New Delhi - 110044";
 
-export const AREAS = [
+export const AREAS = ["Noida", "Ghaziabad", "Gurgaon", "Faridabad", "Greater Noida", "New Delhi",
   "Badarpur", "South East Delhi", "Rohini", "Dwarka", "Janakpuri", "Laxmi Nagar", "Karol Bagh", 
-  "Pitampura", "Noida", "Ghaziabad", "Gurgaon"
+  "Pitampura", "Saket", "Vasant Kunj", "Punjabi Bagh", "Shahdara", "Preet Vihar", "Mayur Vihar", "Nehru Place",
+  "Connaught Place", "Rajouri Garden", "Paschim Vihar", "Tilak Nagar", "Kalkaji", "Ashok Vihar", "Moti Nagar",
+  "Vikaspuri", "R.K. Puram", "Sanjay Gandhi Transport Nagar", "Lodhi Colony", "Jangpura", "Nizamuddin",
+  "Chandni Chowk", "Karol Bagh", "Sadar Bazaar", "Daryaganj", "Paharganj", "Shivaji Place", "Shalimar Bagh",
+  "Model Town", "Azadpur", "Adarsh Nagar", "Bawana", "Mangol Puri", "Rohini", "Pitampura", "Dwarka", "Janakpuri", "Laxmi Nagar", "Karol Bagh", 
+  "Saket", "Vasant Kunj", "Punjabi Bagh", "Shahdara", "Preet Vihar", "Mayur Vihar", "Nehru Place",
+  "Connaught Place", "Rajouri Garden", "Paschim Vihar", "Tilak Nagar", "Kalkaji", "Ashok Vihar", "Moti Nagar",
+  "Vikaspuri", "R.K. Puram", "Sanjay Gandhi Transport Nagar", "Lodhi Colony", "Jangpura", "Nizamuddin",
+  "Chandni Chowk", "Karol Bagh", "Sadar Bazaar", "Daryaganj", "Paharganj", "Shivaji Place", "Shalimar Bagh",
+  "Model Town", "Azadpur", "Adarsh Nagar", "Bawana", "Mangol Puri", "Rohini", "Pitampura", "Dwarka", "Janakpuri", "Laxmi Nagar", "Karol Bagh", 
+  "Saket", "Vasant Kunj", "Punjabi Bagh", "Shahdara", "Preet Vihar", "Mayur Vihar", "Nehru Place",
+  "Connaught Place", "Rajouri Garden", "Paschim Vihar", "Tilak Nagar", "Kalkaji", "Ashok Vihar", "Moti Nagar",
+  "Vikaspuri", "R.K. Puram", "Sanjay Gandhi Transport Nagar", "Lodhi Colony", "Jangpura", "Nizamuddin",
+  "Chandni Chowk", "Karol Bagh", "Sadar Bazaar", "Daryaganj", "Paharganj", "Shivaji Place", "Shalimar Bagh",
+  "Model Town", "Azadpur", "Adarsh Nagar", "Bawana", "Mangol Puri"
 ];
 
 export const ICONS = {
