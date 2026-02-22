@@ -50,7 +50,7 @@ const Header: React.FC = () => {
             </div>
             <div>
               <span className="block text-xl font-black text-slate-900 uppercase tracking-tighter leading-none">
-                Doctor Repair
+                Doctor Ac Repair
               </span>
               <span className="text-[10px] font-bold text-blue-600 uppercase tracking-widest mt-1 block">
                 Delhi NCR Experts

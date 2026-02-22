@@ -203,7 +203,7 @@ const Services: React.FC<ServicesProps> = ({ onOpenBooking }) => {
           <div className="bg-white/5 backdrop-blur-2xl border border-white/10 rounded-[2.5rem] p-8 md:p-16 flex flex-col lg:flex-row items-center justify-between gap-8 group/banner hover:border-blue-400/30 transition-all duration-500">
              <div className="text-center lg:text-left">
                <h4 className="text-2xl md:text-4xl font-black text-white mb-2 group-hover/banner:translate-x-1 transition-transform">Need a Rental AC?</h4>
-               <p className="text-blue-100/70 text-base md:text-lg">Special prices for <span className="text-white font-bold underline decoration-blue-500 decoration-2 underline-offset-4">Dwarka & Rohini</span>. Units starting at ₹1500/mo.</p>
+               <p className="text-blue-100/70 text-base md:text-lg">Special prices for <span className="text-white font-bold underline decoration-blue-500 decoration-2 underline-offset-4">Delhi NCR </span>. Units starting at ₹12000/session</p>
              </div>
              <div className="flex flex-col sm:flex-row gap-4 w-full lg:w-auto">
                 <a href={`tel:${PHONE_NUMBER}`} className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-2xl font-black text-center flex items-center justify-center gap-3 transition-all shadow-xl hover:shadow-blue-600/30 hover:-translate-y-1 active:scale-95">
