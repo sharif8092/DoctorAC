@@ -42,6 +42,17 @@ const serviceIcons = {
     <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-8 h-8">
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
     </svg>
+  ),
+  gas: (
+    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-8 h-8">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 10-7.038 0l-2.387.477a2 2 0 00-1.022.547l-1.397 1.397a2 2 0 00-.57 1.414V20a2 2 0 002 2h12a2 2 0 002-2v-1.186a2 2 0 00-.57-1.414l-1.397-1.397z" />
+    </svg>
+  ),
+  maintenance: (
+    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-8 h-8">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+    </svg>
   )
 };
 
@@ -57,6 +68,24 @@ const services = [
   },
   {
     num: "02",
+    title: "AC Gas Filling",
+    h3: "Professional AC Gas Filling",
+    desc: "Ensuring optimal cooling with precise gas pressure checks and refilling. We use high-quality R32, R410A, and R22 gases.",
+    img: "ac4.png",
+    icon: serviceIcons.gas,
+    badge: "Essential"
+  },
+  {
+    num: "03",
+    title: "AC Maintenance",
+    h3: "Express AC Service & Clean",
+    desc: "Deep jet cleaning of indoor and outdoor units to improve efficiency and air quality. Regular maintenance to prevent breakdowns.",
+    img: "technicians_work.png",
+    icon: serviceIcons.maintenance,
+    badge: "Bestseller"
+  },
+  {
+    num: "04",
     title: "AC on Rent",
     h3: "Window & Split AC Renting",
     desc: "Affordable AC rental services for homes and offices in Delhi NCR. Low maintenance cost and quick installation.",
@@ -65,7 +94,7 @@ const services = [
     badge: "Seasonal Deal"
   },
   {
-    num: "03",
+    num: "05",
     title: "Old AC Buy & Sell",
     h3: "Best Price for Used ACs",
     desc: "Looking to sell your old AC? We buy scrap or working ACs at the best market rates in Delhi. Instant cash payout.",
@@ -74,7 +103,7 @@ const services = [
     badge: "Instant Cash"
   },
   {
-    num: "04",
+    num: "06",
     title: "Washing Machine Repair",
     h3: "Washing Machine Repair in Delhi NCR",
     desc: "Complete repair solutions for Top Load, Front Load, and Semi-Automatic washing machines by experienced technicians.",
@@ -83,7 +112,7 @@ const services = [
     badge: "24/7 Service"
   },
   {
-    num: "05",
+    num: "07",
     title: "Fridge Repair",
     h3: "Fridge Repair Service Near Me",
     desc: "Double door, single door, and side-by-side refrigerator repair. Expert gas refilling and compressor replacement.",
@@ -92,7 +121,7 @@ const services = [
     badge: "Best Value"
   },
   {
-    num: "06",
+    num: "08",
     title: "AC Installation",
     h3: "Professional AC Installation",
     desc: "Secure mounting and gas pressure testing. We provide copper piping and expert bracket fitting services.",
@@ -101,7 +130,7 @@ const services = [
     badge: "Expert Team"
   },
   {
-    num: "07",
+    num: "09",
     title: "AC AMC Service",
     h3: "AC AMC Service in Delhi",
     desc: "Affordable Annual Maintenance Contracts (AMC). Unlimited service visits and preventive maintenance included.",
@@ -110,7 +139,7 @@ const services = [
     badge: "Most Saved"
   },
   {
-    num: "08",
+    num: "10",
     title: "Appliance Rentals",
     h3: "Fridge & Washer on Rent",
     desc: "Don't want to buy? Rent high-quality washing machines and fridges at the lowest monthly prices in Rohini & Dwarka.",
